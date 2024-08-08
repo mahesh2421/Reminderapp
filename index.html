@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reminder App</h1>
+        <div class="dropdown">
+            <label for="day">Day of the Week:</label>
+            <select id="day">
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+                <option>Saturday</option>
+                <option>Sunday</option>
+            </select>
+        </div>
+        <div class="time-picker">
+            <label for="time">Choose Time:</label>
+            <input type="time" id="time">
+        </div>
+        <div class="dropdown">
+            <label for="activity">Activity:</label>
+            <select id="activity">
+                <option>Wake up</option>
+                <option>Go to gym</option>
+                <option>Breakfast</option>
+                <option>Meetings</option>
+                <option>Lunch</option>
+                <option>Quick nap</option>
+                <option>Go to library</option>
+                <option>Dinner</option>
+                <option>Go to sleep</option>
+            </select>
+        </div>
+        <button id="setReminder">Set Reminder</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
